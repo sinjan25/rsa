@@ -4,7 +4,7 @@ Jadavpur University, Kolkata,
 Implementation of RSA in C
 */
 
-//Firstly I have first generated the first 10000 prime numbers from 2 to 150000.
+//Firstly I have generated the first 10,000 prime numbers from 2 to 150,000.
 //Generation of those primes
 
 #include <stdio.h>
@@ -14,7 +14,7 @@ Implementation of RSA in C
 
 long long phi,M,n,e,d,C;
 
-#define LIMIT 80000 /*size of integers array*/
+#define LIMIT 150000 /*size of integers array*/
 #define PRIMES 10000 /*size of primes array*/
 
 int preselection(int k){
